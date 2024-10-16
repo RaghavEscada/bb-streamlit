@@ -1,0 +1,13 @@
+prefix=/Users/raghav/Desktop/x/myenv
+exec_prefix=/Users/raghav/Desktop/x/myenv
+libdir=/Users/raghav/Desktop/x/myenv/lib
+sharedlibdir=/Users/raghav/Desktop/x/myenv/lib
+includedir=/Users/raghav/Desktop/x/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
